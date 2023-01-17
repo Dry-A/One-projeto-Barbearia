@@ -1,3 +1,7 @@
+
+body{
+	font-family: 'Lora', serif;
+}
 header {
 	background: #BBBBBB;
 	padding: 20px 0;
@@ -90,10 +94,7 @@ footer {
 	margin: 20px 0 0;
 }
 
-main {
-	width: 940px;
-	margin: 0 auto;
-}
+
 
 form {
 	margin: 40px 0;
@@ -148,3 +149,114 @@ td, th {
 	border: 1px solid #000000;
 	padding: 8px 15px;
 }
+/*css da página index (inicial*/
+
+.banner {
+	width:100%;
+}
+
+.titulo-principal{
+	clear: left;/*limpa o float a esquerda*/
+	text-align: center;
+	font-size: 2em;/*2x o tamanho base*/
+	margin: 0 0 1em;
+}
+
+.titulo-principal:first-letter {
+    font-weight: bold;
+}
+p:first-line{
+color: brown;
+}
+.titulo-principal:before{
+	content: "{";
+
+}
+.titulo-principal:after{
+	content: "}";
+}
+
+.principal{
+	width: 940px;
+	margin: 0 auto;
+	background: #FEFEFE;
+	padding: 3m 0;
+}
+
+.principal p {
+	margin: 0 0 1em;
+}
+
+.principal strong{
+	font-weight: bold;
+}
+
+.principal em{
+	font-style: italic;
+}
+
+.imagem-beneficios{
+	width: 60%;
+}
+.lista-beneficios{
+	vertical-align: top;
+	display: inline-block;
+	width: 40%;
+}
+
+.itens{
+	line-height: 1.5;
+}
+.itens:nth-child(2n){
+	color: #050e63;
+	font-weight: bold;
+
+}
+.itens:last-child{
+	font-style: unset;
+}
+.itens:before{
+	content:"✶";
+}
+.utensilios{
+	width: 120px;
+	float: left;
+	margin: 0 20px 20px 0; /*cima direita baixo esquerda*/
+}
+.mapa{
+	padding: 3em 0;
+	background: linear-gradient( #FEFEFE,#888888);
+	
+}
+
+.mapa-conteudo{
+	width: 940px;
+	margin: 0 auto;
+}
+
+.mapa p{
+	margin: 0 2em;
+	text-align: center;
+}
+.beneficios{
+	padding: 3em;
+	background: #888888;
+}
+.video{
+	width: 500px;
+	margin: 2em auto;
+}
+
+.conteudo-beneficios{
+
+width: 640px;
+margin: 0 auto;
+}
+
+
+
+
+
+
+
+
